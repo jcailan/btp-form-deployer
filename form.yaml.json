@@ -81,11 +81,12 @@
 						"overwrite"
 					],
 					"errorMessage": "Unsupported \"deploy-mode\""
+				},
+				"destination": {
+					"type": "string"
 				}
 			},
-			"required": [
-				"deploy-mode"
-			],
+			"required": [],
 			"title": "Parameters"
 		}
 	}
