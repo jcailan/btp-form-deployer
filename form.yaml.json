@@ -29,7 +29,6 @@
 			},
 			"required": [
 				"forms",
-				"parameters",
 				"_schema-version"
 			],
 			"title": "FormDeployerConfig"
