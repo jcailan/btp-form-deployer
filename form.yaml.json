@@ -40,6 +40,9 @@
 				"name": {
 					"type": "string"
 				},
+				"note": {
+					"type": "string"
+				},
 				"templates": {
 					"type": "array",
 					"items": {
@@ -60,13 +63,23 @@
 				"name": {
 					"type": "string"
 				},
+				"note": {
+					"type": "string"
+				},
+				"language": {
+					"type": "string"
+				},
+				"businessArea": {
+					"type": "string"
+				},
 				"filename": {
 					"type": "string"
 				}
 			},
 			"required": [
 				"filename",
-				"name"
+				"name",
+				"language"
 			],
 			"title": "Template"
 		},
